@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/QuarkCpp/CMakeFiles/QuarkCpp.dir/embed.manifest"

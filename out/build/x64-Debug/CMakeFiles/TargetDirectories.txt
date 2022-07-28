@@ -1,0 +1,5 @@
+Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/QuarkCpp/CMakeFiles/QuarkCpp.dir
+Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/QuarkCpp/CMakeFiles/edit_cache.dir
+Y:/Duilio/Projects/QuarkCpp/out/build/x64-Debug/QuarkCpp/CMakeFiles/rebuild_cache.dir
