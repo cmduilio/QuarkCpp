@@ -120,6 +120,13 @@ build QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Pantalon\Pantalon.cpp.obj: CXX
   TARGET_COMPILE_PDB = QuarkCpp\CMakeFiles\QuarkCpp.dir\
   TARGET_PDB = QuarkCpp\QuarkCpp.pdb
 
+build QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Programa\Programa.cpp.obj: CXX_COMPILER__QuarkCpp_Debug ..\..\..\QuarkCpp\src\Programa\Programa.cpp || cmake_object_order_depends_target_QuarkCpp
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = QuarkCpp\CMakeFiles\QuarkCpp.dir
+  OBJECT_FILE_DIR = QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Programa
+  TARGET_COMPILE_PDB = QuarkCpp\CMakeFiles\QuarkCpp.dir\
+  TARGET_PDB = QuarkCpp\QuarkCpp.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target QuarkCpp
@@ -128,7 +135,7 @@ build QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Pantalon\Pantalon.cpp.obj: CXX
 #############################################
 # Link the executable QuarkCpp\QuarkCpp.exe
 
-build QuarkCpp\QuarkCpp.exe: CXX_EXECUTABLE_LINKER__QuarkCpp_Debug QuarkCpp\CMakeFiles\QuarkCpp.dir\QuarkCpp.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Vendedor\Vendedor.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Cotizacion\Cotizacion.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Tienda\Tienda.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Prenda.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Camisa\Camisa.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Pantalon\Pantalon.cpp.obj
+build QuarkCpp\QuarkCpp.exe: CXX_EXECUTABLE_LINKER__QuarkCpp_Debug QuarkCpp\CMakeFiles\QuarkCpp.dir\QuarkCpp.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Vendedor\Vendedor.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Cotizacion\Cotizacion.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Tienda\Tienda.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Prenda.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Camisa\Camisa.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Prenda\Pantalon\Pantalon.cpp.obj QuarkCpp\CMakeFiles\QuarkCpp.dir\src\Programa\Programa.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

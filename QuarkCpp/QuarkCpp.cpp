@@ -3,26 +3,18 @@
 #include <iostream>
 
 #include "src/Vendedor/Vendedor.h"
-#include "src/Prenda/Prenda.h"
 #include "src/Prenda/Pantalon/Pantalon.h"
+#include "src/Prenda/Camisa/Camisa.h"
+#include "src/Programa/Programa.h"
+#include "src/Tienda/Tienda.h"
+
+using namespace std;
 
 int main()
 {
-	vector<Prenda*> listado;
-	Tienda tienda = Tienda("Nombre", "direccion", listado);
-	Vendedor Vend = Vendedor("Nombre", "apellido", "001", tienda);
 
-	Vend.Cotizar(1, "Fecha", "Hora", "Codigo", "Prenda", 3, 20);
+	Programa programa = Programa();
 
-	Pantalon prenda = Pantalon(TipoCalidad::Premium, 100, 5, TipoPantalon::Chupin);
-
-	Prenda* asd = &prenda;
-
-	listado.push_back(&prenda);
-	
-	float valor = listado[0]->Cotizar();
-
-	std::cout << valor << endl;
-
+	programa.Start();
 	return 0;
 }

@@ -13,6 +13,11 @@ public:
 	
 	Tienda(string Nombre, string Direccion, vector<Prenda*> Listado);
 
+	string GetNombre() { return nombre; };
+	string GetDireccion() { return direccion; };
+	vector<Prenda*> GetListado() { return listado; };
+
+	Prenda* BuscarPrenda(Prenda* prenda);
 private:
 
 	string nombre;

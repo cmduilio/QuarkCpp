@@ -2,21 +2,32 @@
 
 #include <string>
 #include <vector>
-#include "../Cotizacion/Cotizacion.h"
-#include "../Tienda/Tienda.h"
 
 using namespace std;
+
+class Cotizacion;
+class Tienda;
+class Prenda;
 
 class Vendedor {
 
 public:
-	Vendedor(string Nombre, string Apellido, string Codigo, Tienda tienda);
+	Vendedor(string Nombre, string Apellido, string Codigo, Tienda* tienda);
 
-	void Cotizar(int Numero, string Fecha, string Hora, string CodigoVendedor, string Prenda, int Cantidad, float Resultado);
+	Cotizacion* Cotizar(Prenda* Prenda, int Cantidad);
+
+	string GetNombre(){ return nombre; };
+	string GetApellido(){ return apellido; };
+	string GetCodigo() { return codigo; };
+	vector<Cotizacion*> GetCotizaciones() { return cotizaciones; };
+	Tienda* GetTienda() { return tienda; }
+
+	Prenda* BuscarPrenda(Prenda* prenda);
 
 private:
 	string nombre;
 	string apellido;
 	string codigo;
-	vector<Cotizacion> cotizaciones;
+	Tienda* tienda;
+	vector<Cotizacion*> cotizaciones;
 };
