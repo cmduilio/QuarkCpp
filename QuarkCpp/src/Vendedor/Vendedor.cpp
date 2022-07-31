@@ -1,5 +1,6 @@
 #include "Vendedor.h"
 #include <iostream>
+#include <ctime>
 
 #include "../Cotizacion/Cotizacion.h"
 #include "../Prenda/Prenda.h"
@@ -16,8 +17,12 @@ Vendedor::Vendedor(string Nombre, string Apellido, string Codigo, Tienda* Tienda
 
 Cotizacion* Vendedor::Cotizar(Prenda* Prenda, int Cantidad) {
 	int Numero = this->cotizaciones.size() + 1;
-	string Fecha = "fecha";
-	string Hora = "hora";
+
+	time_t now = time(0);
+	tm* ltm = localtime(&now);
+
+	string Fecha = to_string(ltm->tm_mday) + "/" + to_string(1+ltm->tm_mon) + "/" + to_string(1900 + ltm->tm_year);
+	string Hora = to_string(ltm->tm_hour) + ":" + to_string(ltm->tm_min) + ":" + to_string(ltm->tm_sec);
 	string CodigoVendedor = this->codigo;
 
 	float Resultado = Prenda->Cotizar() * Cantidad;

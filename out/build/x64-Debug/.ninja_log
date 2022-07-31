@@ -87,3 +87,12 @@
 619	735	6809462255167412	QuarkCpp/QuarkCpp.exe	ac7af69c1819a2d2
 1	774	6809463837104025	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Programa/Programa.cpp.obj	9a8fb64858e37208
 774	898	6809463838084243	QuarkCpp/QuarkCpp.exe	ac7af69c1819a2d2
+0	595	6809766634374412	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Vendedor/Vendedor.cpp.obj	6ca9545a99af0d70
+595	762	6809766635677303	QuarkCpp/QuarkCpp.exe	ac7af69c1819a2d2
+1	366	6809767005957851	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Vendedor/Vendedor.cpp.obj	6ca9545a99af0d70
+366	491	6809767006998080	QuarkCpp/QuarkCpp.exe	ac7af69c1819a2d2
+5	617	6809774866519713	QuarkCpp/CMakeFiles/QuarkCpp.dir/QuarkCpp.cpp.obj	86f64c29b9d78c9b
+1	624	6809774866579714	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Tienda/Tienda.cpp.obj	a7637dad2620e7c4
+7	632	6809774866674964	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Vendedor/Vendedor.cpp.obj	6ca9545a99af0d70
+10	958	6809774869921004	QuarkCpp/CMakeFiles/QuarkCpp.dir/src/Programa/Programa.cpp.obj	9a8fb64858e37208
+958	1085	6809774870936270	QuarkCpp/QuarkCpp.exe	ac7af69c1819a2d2
